@@ -1,0 +1,78 @@
+[
+  {
+    "name": "Constitution Day",
+    "text": "Our nation has just adopted a constitution which governs the roles and responsibilities of the 3 branches of government and grants rights to our citizens. As a result, celebrations have erupted across the empire as citizens celebrate the dawn of a new era in our political process.",
+    "choices": [
+        { "text": "Hip hip hooray!",
+          "uniques": ["[+3 Happiness] [in all cities] <for [5] turns>"]}]
+  },
+
+  {
+    "name": "Welfare or no?",
+    "text": "As the economy continues to grow, there are growing concerns that the benefits of economic growth are not fully benefiting all segments of society. More people have been calling for the establishment of a welfare state to look after the lower classes.",
+    "choices": [
+      {"text": "Funding a welfare state is expensive and requires us to raise taxes. This will hurt business confidence.",
+        "uniques": ["[-2 Happiness] [in all cities] <for [5] turns>",
+                    "[+10 Gold] [in all cities] <for [10] turns>"]}
+      
+      {"text": "The state must look after the lower classes. It’s a great idea!",
+        "uniques": ["[+2 Happiness] [in all cities] <for [5] turns>",
+                    "[+2 Food] from every [Hospital] <for [10] turns>",
+                    "[-10 Gold] [in all cities] <for [10] turns>"]}
+
+      {"text": "Let’s create a limited number of programs to balance raising taxes and taking care of our people.",
+        "uniques": ["[+1 Happiness] [in all cities] <for [5] turns>",
+                    "[+1 Food] from every [Hospital] <for [10] turns>",
+                    "[-5 Gold] [in all cities] <for [10] turns>"]}]
+  },
+
+  {
+  "name": "Open borders",
+  "text": "Due to our developed economy and high living standards, a big group of migrants from other nations have arrived at our borders in search of a better life. While their reason for coming here is legit, our citizens are uncomfortable at the thought of letting in so many foreigners.",
+  "choices": [
+    {"text": "Our nation belongs to our citizens only. Chase them away!",
+     "uniques": ["[+3 Happiness] [in all cities] <for [5] turns>"]}
+
+    {"text": "These people just want a better life for themselves and their children. We should let them in.",
+      "uniques": ["[-4 Happiness] [in all cities] <for [5] turns>",
+                  "[+3] population [in all cities]"]}
+
+    {"text": "Let the talented ones in and turn away the rest.",
+     "uniques": ["[+2]% [Science] [in all cities] <for [5] turns>",
+                 "[+2]% [Production] [in all cities] <for [5] turns>"]}]
+  },
+
+  {
+  "name": "Moviemaking Boom",
+  "text": "For some time now, the public’s demand for movies has been increasing. As a result, new movie studios are opening across the country and new celebrities are popping up overnight. Critically-acclaimed movies now open up to millions of viewers at cinemas.",
+  "choices": [
+    {"text": "Excellent!",
+      "uniques": ["[+5 Culture] [in all cities] <for [5] turns>"]}]
+  },
+
+  {"name": "Obesity Epidemic",
+   "text": "Thanks to fast food and sedentary lifestyles, our nation has seen a marked increase in obesity rates in recent years. As productivity losses from obesity-related illnesses continue to rise, we must do something about it.",
+    "choices": [
+      {"text": "We shall build more sports facilities and encourage everyone to exercise more!",
+        "uniques": ["Gain a free [Stadium] [in all cities]",
+                    "[+2 Happiness] [in all cities] <for [5] turns>",
+                    "Comment [Lose 1500 [Gold]]",
+                    "Gain [-1500] [Gold] <hidden from users>"]}
+
+      {"text": "We shall launch a healthy eating campaign and encourage everyone to eat more healthily!",
+        "uniques": ["[+1 Food] from [Fish] tiles [in all cities] <for [5] turns>",
+                    "[+1 Food] from [Wheat] tiles [in all cities] <for [5] turns>",
+                    "[+1 Food] from [Spices] tiles [in all cities] <for [5] turns>",
+                    "[+1 Food] from [Citrus] tiles [in all cities] <for [5] turns>",
+                    "Comment [Lose 900 [Gold]]",
+                    "Gain [-900] [Gold] <hidden from users>"]}]
+   },
+
+  {"name": "Patriotic Youth",
+   "text": "Thanks to a recent surge in patriotism, there has been an increase in the number of young men enlisting in our military to protect our homeland from any foreign invasion.",
+   "choices": [
+     {"text": "Excellent!",
+      "uniques": ["[3] free [Great War Infantry] units appear"]}]
+     }
+
+]
