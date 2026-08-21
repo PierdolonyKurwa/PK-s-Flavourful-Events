@@ -1,0 +1,11 @@
+{
+  "name": "Global uniques",
+	"uniques": [
+    "Triggers a [Constitution Day] event <upon adopting [Constitution]>",
+    "Triggers a [Welfare or no?] event <starting from the [Modern era]>",
+	"Triggers a [Open borders] event <with [2]% chance> <starting from the [Modern era]>",
+	"Triggers a [Moviemaking Boom] event <with [2]% chance> <starting from the [Modern era]>",
+	"Triggers a [Obesity Epidemic] event <starting from the [Atomic era]>",
+	"Triggers a [Patriotic Youth] event <with [2]% chance> <starting from the [Atomic era]>"
+  ]
+}
